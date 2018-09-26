@@ -1,7 +1,7 @@
 # gsv: github search vehicle
 
 ```
-$ npx gsv 'some code'
+$ npx @chrisdickinson/gsv 'some code'
 ```
 
 ## License
