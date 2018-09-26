@@ -1,0 +1,30 @@
+{
+  "name": "gsv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdickinson/gsv.git"
+  },
+  "keywords": [],
+  "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdickinson/gsv/issues"
+  },
+  "homepage": "https://github.com/chrisdickinson/gsv#readme",
+  "dependencies": {
+    "@iarna/toml": "^2.0.0",
+    "bole": "^3.0.2",
+    "inquirer": "^6.1.0",
+    "node-fetch": "^2.2.0",
+    "opener": "^1.5.0",
+    "ora": "^3.0.0",
+    "rc": "^1.2.8",
+    "yargs": "^12.0.1"
+  }
+}
