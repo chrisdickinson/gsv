@@ -1,9 +1,11 @@
 {
   "name": "@chrisdickinson/gsv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
-  "bin": {"gsv": "./gsv.js"},
+  "bin": {
+    "gsv": "./gsv.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
