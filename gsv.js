@@ -28,6 +28,6 @@ require('./lib/search')({
     token: config.token
   })
 }).catch(err => {
-  process.stderr.write(err.message)
+  process.stderr.write(err.stack)
   process.exit(1)
 })
