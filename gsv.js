@@ -29,5 +29,6 @@ require('./lib/search')({
   })
 }).catch(err => {
   process.stderr.write(err.stack)
+  process.stderr.write(err.body)
   process.exit(1)
 })
